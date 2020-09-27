@@ -49,7 +49,6 @@ public with sharing class AccountCallouts {
         Http http = new Http();
         HttpRequest request = prepareRequestIdBody('PATCH', id, requestBody);
         HttpResponse response = http.send(request);
-        System.debug(response.getStatusCode());
         debugResponseStatus(response);
         return response;
     }

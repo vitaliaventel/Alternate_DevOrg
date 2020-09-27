@@ -8,10 +8,12 @@
     <types>
         <members>AccountCallouts</members>
         <members>OAuth2Manager</members>
+        <members>AccountHttpCalloutMock</members>
+        <members>TestAccountCallouts</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>ConnectionProperties</members>
+        <members>AccountCalloutMockResource</members>
         <name>StaticResource</name>
     </types>
     <version>48.0</version>
